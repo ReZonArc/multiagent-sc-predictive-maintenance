@@ -2,8 +2,8 @@ import "./globals.css";
 import Navbar from "@/components/navBar/NavBar";
 
 export const metadata = {
-  title: "Agentic Predictive Maintenance",
-  description: "A demo by MongoDB Industry Solutions",
+  title: "Agentic Skincare Supply Chain Management",
+  description: "A skincare supply chain management demo by MongoDB Industry Solutions",
 };
 
 export default function RootLayout({ children }) {

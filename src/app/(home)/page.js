@@ -9,13 +9,13 @@ export default function Page() {
     <main className="flex flex-col items-center w-full max-h-[calc(100vh-4rem)] h-[calc(100vh-4rem)] overflow-hidden mt-8 mb-8">
       {/* Title */}
       <H1 className="mt-8 mb-4 text-center">
-        Multi-Agent Predictive Maintenance Demo
+        Multi-Agent Skincare Supply Chain Management Demo
       </H1>
       {/* Image Section */}
       <div className="relative flex-grow w-full flex items-center justify-center min-h-[180px] mb-2">
         <Image
           src="/img/steps.svg"
-          alt="Predictive Maintenance Demo"
+          alt="Skincare Supply Chain Management Demo"
           fill
           className="object-contain w-full h-full"
           priority
@@ -37,7 +37,7 @@ export default function Page() {
             />
             <H3 className="mb-1 text-center text-base">GitHub Repository</H3>
             <Description className="text-center mb-1 text-xs">
-              Explore the source code and implementation details of this demo.
+              Explore the source code and implementation details of this skincare supply chain demo.
             </Description>
             <a
               href="https://github.com/mongodb-industry-solutions/multiagent-predictive-maintenance"
@@ -65,7 +65,7 @@ export default function Page() {
             />
             <H3 className="mb-1 text-center text-base">Slide Deck</H3>
             <Description className="text-center mb-1 text-xs">
-              Discover how agentic AI is transforming predictive maintenance.
+              Discover how agentic AI is transforming skincare supply chain management.
             </Description>
             <a
               href="https://docs.google.com/presentation/d/1nmPBEksW-BUtazLByXd7O04CdrYNLRu9UyEgje_Vf3c/edit?slide=id.g373ea525438_0_2759#slide=id.g373ea525438_0_2759"
@@ -93,7 +93,7 @@ export default function Page() {
             />
             <H3 className="mb-1 text-center text-base">Blog Post</H3>
             <Description className="text-center mb-1 text-xs">
-              Learn more about multi-agent collaboration for manufacturing
+              Learn more about multi-agent collaboration for skincare supply chain
               operations excellence.
             </Description>
             <a

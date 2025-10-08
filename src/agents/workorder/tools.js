@@ -91,7 +91,7 @@ export const generateWorkOrder = tool(
           description: "Name of the tool for identification purposes",
           enum: ["generate_work_order"],
         },
-        machine_id: {
+        facility_id: {
           type: "string",
           description: "ID of the machine involved in the work order",
         },
@@ -146,7 +146,7 @@ export const generateWorkOrder = tool(
       },
       required: [
         "name",
-        "machine_id",
+        "facility_id",
         "title",
         "estimated_duration_days",
         "required_skills",

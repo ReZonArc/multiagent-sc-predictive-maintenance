@@ -36,9 +36,9 @@ export default function Page() {
       <main className="flex flex-col w-full h-full">
         {/* Page Title & Subheader */}
         <div className="flex flex-col items-start justify-center px-6 py-4">
-          <H3 className="mb-1 text-left">Root Cause Analysis</H3>
+          <H3 className="mb-1 text-left">Supply Chain Issue Analysis</H3>
           <Description className="text-left max-w-2xl mb-2">
-            Analyze machine incidents and agent responses in real time.
+            Monitor supply chain metrics and analyze agent responses to inventory and quality issues in real time.
           </Description>
         </div>
         <div className="flex flex-1 min-h-0 w-full gap-6 px-2 pb-4">
