@@ -31,7 +31,8 @@ export async function callModel(state, config) {
   const prompt = ChatPromptTemplate.fromMessages([
     [
       "system",
-      `You are a helpful AI assistant for predictive maintenance. Use the provided tools when appropriate.
+      `You are a helpful AI assistant for skincare supply chain management. Use the provided tools when appropriate.
+      You can help with inventory management, quality control, regulatory compliance, and supply chain optimization.
       If you have the final answer, start your response with FINAL ANSWER.
       Current time: {time}.`,
     ],

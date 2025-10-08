@@ -1,51 +1,55 @@
-// Failure detection logic (not React)
-// Checks telemetry and generates alert if needed
+// Supply chain issue detection logic (not React)
+// Checks inventory levels and quality metrics, generates alerts if needed
 
-const TEMP_THRESHOLD = 90;
-const VIB_THRESHOLD = 1.2;
+const LOW_STOCK_THRESHOLD = 5;
+const QUALITY_SCORE_THRESHOLD = 85;
 
-export function checkForAlert(machineData, alerts, status) {
-  // Only one alert per excursion above threshold, and only if not already in alert status
-  const tempAlertActive = alerts.some(
-    (a) => a.err_code === "E12" && !a.resolved
+export function checkForAlert(supplyChainData, alerts, status) {
+  // Only one alert per issue type, and only if not already in alert status
+  const stockAlertActive = alerts.some(
+    (a) => a.err_code === "S01" && !a.resolved
   );
-  const vibAlertActive = alerts.some(
-    (a) => a.err_code === "E13" && !a.resolved
+  const qualityAlertActive = alerts.some(
+    (a) => a.err_code === "S02" && !a.resolved
   );
   const now = new Date();
-  // High temperature alert
+  // Low stock alert
   if (
-    machineData.temperature.value > TEMP_THRESHOLD &&
-    !tempAlertActive &&
+    supplyChainData.stock_level && 
+    supplyChainData.stock_level.value < LOW_STOCK_THRESHOLD &&
+    !stockAlertActive &&
     status !== "alert"
   ) {
     return {
       _id: "alert-" + now.getTime(),
-      err_code: "E12",
-      err_name: "High temperature",
-      machine_id: "M1",
+      err_code: "S01",
+      err_name: "Low inventory stock",
+      facility_id: "SC1",
       ts: now.toLocaleString(),
       details: {
-        temperature: machineData.temperature.value,
-        vibration: machineData.vibration.value,
+        stock_level: supplyChainData.stock_level.value,
+        quality_score: supplyChainData.quality_score?.value || 100,
+        product_category: supplyChainData.product_category || "skincare",
       },
     };
   }
-  // High vibration alert
+  // Quality score alert
   if (
-    machineData.vibration.value > VIB_THRESHOLD &&
-    !vibAlertActive &&
+    supplyChainData.quality_score &&
+    supplyChainData.quality_score.value < QUALITY_SCORE_THRESHOLD &&
+    !qualityAlertActive &&
     status !== "alert"
   ) {
     return {
       _id: "alert-" + now.getTime(),
-      err_code: "E13",
-      err_name: "High vibration",
-      machine_id: "M1",
+      err_code: "S02",
+      err_name: "Quality compliance issue",
+      facility_id: "SC1",
       ts: now.toLocaleString(),
       details: {
-        temperature: machineData.temperature.value,
-        vibration: machineData.vibration.value,
+        stock_level: supplyChainData.stock_level?.value || 0,
+        quality_score: supplyChainData.quality_score.value,
+        product_category: supplyChainData.product_category || "skincare",
       },
     };
   }

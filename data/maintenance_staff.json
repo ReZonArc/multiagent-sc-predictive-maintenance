@@ -2,8 +2,8 @@
   {
     "employee_id": "EMP-1001",
     "name": "Carlos Alvarez",
-    "role": "Maintenance Technician II",
-    "skills": ["Mechanical Maintenance", "Diagnostics", "Welding"],
+    "role": "Supply Chain Coordinator",
+    "skills": ["Inventory Management", "Quality Control", "Supplier Relations"],
     "weekly_schedule": [
       {
         "day": "monday",
@@ -65,8 +65,8 @@
   {
     "employee_id": "EMP-1002",
     "name": "Magdalena Weiss",
-    "role": "Maintenance Electrician",
-    "skills": ["Electrical Maintenance", "Calibration", "Diagnostics"],
+    "role": "Quality Assurance Manager",
+    "skills": ["Quality Control", "Regulatory Compliance", "Product Testing"],
     "weekly_schedule": [
       {
         "day": "monday",
@@ -128,8 +128,8 @@
   {
     "employee_id": "EMP-1003",
     "name": "Alicia Mori",
-    "role": "Maintenance Engineer",
-    "skills": ["Safety Compliance", "Diagnostics"],
+    "role": "Procurement Specialist",
+    "skills": ["Regulatory Compliance", "Supplier Evaluation"],
     "weekly_schedule": [
       {
         "day": "monday",
@@ -191,8 +191,8 @@
   {
     "employee_id": "EMP-1004",
     "name": "Björn Müller",
-    "role": "Calibration Specialist",
-    "skills": ["Calibration", "Diagnostics", "Electrical Maintenance"],
+    "role": "Distribution Manager",
+    "skills": ["Distribution Planning", "Supplier Evaluation", "Quality Control"],
     "weekly_schedule": [
       {
         "day": "monday",
@@ -254,8 +254,8 @@
   {
     "employee_id": "EMP-1005",
     "name": "Sofia Garcia",
-    "role": "Safety Officer",
-    "skills": ["Safety Compliance", "Mechanical Maintenance"],
+    "role": "Regulatory Affairs Officer",
+    "skills": ["Regulatory Compliance", "Inventory Management"],
     "weekly_schedule": [
       {
         "day": "monday",
@@ -317,11 +317,11 @@
   {
     "employee_id": "EMP-1006",
     "name": "James Lee",
-    "role": "Mechanical Engineer",
+    "role": "Logistics Coordinator",
     "skills": [
-      "Mechanical Maintenance",
-      "Electrical Maintenance",
-      "Calibration"
+      "Inventory Management",
+      "Quality Control",
+      "Distribution Planning"
     ],
     "weekly_schedule": [
       {
@@ -384,8 +384,8 @@
   {
     "employee_id": "EMP-1007",
     "name": "Isabella Rossi",
-    "role": "Diagnostics Technician",
-    "skills": ["Diagnostics", "Electrical Maintenance"],
+    "role": "Product Testing Specialist",
+    "skills": ["Product Testing", "Quality Control"],
     "weekly_schedule": [
       {
         "day": "monday",
@@ -447,8 +447,8 @@
   {
     "employee_id": "EMP-1008",
     "name": "Lukas Novak",
-    "role": "Welder Technician",
-    "skills": ["Welding", "Mechanical Maintenance"],
+    "role": "Warehouse Manager",
+    "skills": ["Inventory Management", "Distribution Planning"],
     "weekly_schedule": [
       {
         "day": "monday",
@@ -510,8 +510,8 @@
   {
     "employee_id": "EMP-1009",
     "name": "Emma Svensson",
-    "role": "Instrumentation Engineer",
-    "skills": ["Calibration", "Electrical Maintenance", "Diagnostics"],
+    "role": "Supply Chain Analyst",
+    "skills": ["Distribution Planning", "Quality Control", "Supplier Evaluation"],
     "weekly_schedule": [
       {
         "day": "monday",
@@ -573,8 +573,8 @@
   {
     "employee_id": "EMP-1010",
     "name": "Olivia Chen",
-    "role": "Mechanical Calibration Technician",
-    "skills": ["Mechanical Maintenance", "Calibration", "Safety Compliance"],
+    "role": "Compliance Manager",
+    "skills": ["Inventory Management", "Distribution Planning", "Regulatory Compliance"],
     "weekly_schedule": [
       {
         "day": "monday",
