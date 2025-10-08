@@ -41,9 +41,9 @@ export default function Page() {
       <main className="flex flex-col w-full h-full">
         {/* Page Title & Subheader */}
         <div className="flex flex-col items-start justify-center px-6 py-4">
-          <H3 className="mb-1 text-left">Process Automation</H3>
+          <H3 className="mb-1 text-left">Supply Chain Process Automation</H3>
           <Description className="text-left max-w-2xl mb-2">
-            Generate and manage workorders from incident reports.
+            Generate and manage corrective action orders from supply chain incident reports.
           </Description>
         </div>
         <div className="flex flex-1 min-h-0 w-full gap-6 px-2 pb-4">

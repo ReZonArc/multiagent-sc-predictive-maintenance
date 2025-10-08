@@ -14,8 +14,9 @@ const tools = getTools();
 const prompt = ChatPromptTemplate.fromMessages([
   [
     "system",
-    `You are the work order agent. 
-    You receive an incident report, retrieve additional context, and generate a work order.
+    `You are the Supply Chain Work Order agent. 
+    You receive supply chain incident reports and generate corrective action work orders.
+    Focus on skincare supply chain operations including inventory replenishment, quality control actions, and compliance measures.
     No need to add details in the final response, after the work order is generated, just acknowledge the completion.
     Use your tools as needed.
     `,

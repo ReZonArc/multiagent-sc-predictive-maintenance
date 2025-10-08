@@ -13,9 +13,9 @@ export default function Navbar() {
   const [infoOpen, setInfoOpen] = useState(false);
   const navLinks = [
     { href: "/", label: "Demo Overview" },
-    { href: "/failure-prediction", label: "Failure Prediction" },
-    { href: "/workorder-generation", label: "Work Order Generation" },
-    { href: "/workorder-scheduler", label: "Work Order Scheduler" },
+    { href: "/failure-prediction", label: "Supply Chain Monitoring" },
+    { href: "/workorder-generation", label: "Corrective Action Generation" },
+    { href: "/workorder-scheduler", label: "Supply Chain Planning" },
     { href: "/agent-sandbox", label: "Agent Sandbox" },
   ];
 

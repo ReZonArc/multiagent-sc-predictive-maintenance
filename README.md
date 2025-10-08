@@ -1,12 +1,12 @@
-# Agentic Predictive Maintenance System
+# Agentic Skincare Supply Chain Management System
 
-Manufacturers are moving beyond traditional predictive maintenance—it's not just about forecasting failures, but about acting on issues instantly and autonomously. This project demonstrates how agentic AI, orchestrated by LangGraph.js and powered by MongoDB Atlas and AWS Bedrock, enables multi-agent systems that detect problems and coordinate rapid, intelligent responses across the shop floor. 
+Professional skincare companies are moving beyond traditional supply chain management—it's not just about tracking inventory, but about acting on supply chain issues instantly and autonomously. This project demonstrates how agentic AI, orchestrated by LangGraph.js and powered by MongoDB Atlas and AWS Bedrock, enables multi-agent systems that detect supply chain problems and coordinate rapid, intelligent responses across the entire skincare supply network. 
 
 This demo showcases:
 
-- **Autonomous action:** AI agents diagnose, plan, and execute maintenance tasks in real time, minimizing human intervention and downtime.
-- **Operational agility:** The system adapts to new data, equipment, and workflows, supporting continuous improvement.
-- **Unified, scalable data foundation:** MongoDB makes it easy to build, operate, and evolve agentic AI solutions—handling diverse data, enabling fast search, and supporting real-time decision-making.
+- **Autonomous action:** AI agents diagnose supply chain issues, plan corrective actions, and execute optimization tasks in real time, minimizing human intervention and supply disruptions.
+- **Operational agility:** The system adapts to new suppliers, products, regulations, and market demands, supporting continuous supply chain improvement.
+- **Unified, scalable data foundation:** MongoDB makes it easy to build, operate, and evolve agentic AI solutions—handling diverse supply chain data, enabling fast search, and supporting real-time decision-making.
 
 ## Architecture
 
@@ -25,7 +25,7 @@ This demo showcases:
 - **Real-time search & retrieval:** Atlas Search and vector search enable fast, context-rich decision-making.
 - **Scalable, adaptable foundation:** Easily extend to new agents, data sources, and operational needs.
 
-This architecture lets manufacturers automate not just prediction, but coordinated action—unlocking the next level of operational excellence.
+This architecture lets skincare companies automate not just supply chain monitoring, but coordinated action—unlocking the next level of supply chain excellence.
 
 ## Getting Started
 
@@ -153,6 +153,6 @@ This demo is designed to be flexible and extensible. Here are some ways you can 
 
 ---
 
-Thank you for exploring the Agentic Predictive Maintenance demo! This repository is maintained by MongoDB Industry Solutions. We encourage you to experiment, extend, and adapt the system to your own use cases. If you have questions or feedback, please reach out at industry.solutions@mongodb.com or open an issue.
+Thank you for exploring the Agentic Skincare Supply Chain Management demo! This repository is maintained by MongoDB Industry Solutions. We encourage you to experiment, extend, and adapt the system to your own use cases. If you have questions or feedback, please reach out at industry.solutions@mongodb.com or open an issue.
 
-Enjoy building the future of modern manufacturing!
+Enjoy building the future of modern skincare supply chain management!

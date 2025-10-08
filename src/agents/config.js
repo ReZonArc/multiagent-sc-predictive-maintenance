@@ -10,33 +10,33 @@ export const AGENTS = [
     id: "test",
     name: "Test Agent",
     createGraph: createTestAgentGraph,
-    description: "A simple predictive maintenance test agent.",
+    description: "A simple skincare supply chain management test agent.",
   },
   {
     id: "supervisor",
-    name: "Supervisor Agent",
+    name: "Supply Chain Supervisor",
     createGraph: createSupervisorAgentGraph,
     description:
-      "Multi-agent workflow: Supervisor coordinates Failure, Workorder, and Planning agents.",
+      "Multi-agent workflow: Supervisor coordinates Supply Chain Issue Detection, Corrective Action, and Planning agents.",
   },
   {
     id: "failure",
-    name: "Failure Agent",
+    name: "Supply Chain Issue Detection",
     createGraph: createFailureAgentGraph,
     description:
-      "Handles alerts, retrieves context, and generates incident reports.",
+      "Handles supply chain alerts, retrieves context, and generates incident reports for skincare operations.",
   },
   {
     id: "workorder",
-    name: "Workorder Agent",
+    name: "Corrective Action Agent",
     createGraph: createWorkorderAgentGraph,
-    description: "Receives incident reports and generates workorders.",
+    description: "Receives incident reports and generates corrective action orders for supply chain issues.",
   },
   {
     id: "planning",
-    name: "Planning Agent",
+    name: "Supply Chain Planning",
     createGraph: createPlanningAgentGraph,
-    description: "Schedules workorder execution based on context.",
+    description: "Schedules corrective actions based on inventory, staff availability, and supply chain priorities.",
   },
 ];
 
